@@ -69,10 +69,12 @@ nav div ul li a:hover {
 }
 
 .plans-smartfit { 
-  display: flex; 
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin: 50px 0;
 }
 
 .content { 
@@ -117,4 +119,11 @@ nav div ul li a:hover {
 
 .button-block span { 
   display: block;
+}
+
+.app{
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 100px;
 }
